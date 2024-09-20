@@ -3,15 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/carro.png" type="image/x-icon">
     <title>Teste Flexbox</title>
 </head>
 <body>
-    <div class="box">
-        <div>One</div>
-        <div>Two</div>
-        <div>Three</div>
-      </div>
+    <h1 class="titulo-pagina">Propriedades Flexbox</h1>
+    <hr>
+
+    <!---->
+    <h1 class="nome-da-propriedade">1- display: Ativa o flexbox</h1>
+    <h2 class="valor-da-propriedade">display: flex</h2>
+    <hr>
+
+    <h1 class="nome-da-propriedade">2- flex-direction: define a direção do eixo principal</h2>
+
+    <h2 class="valor-da-propriedade">flex-direction: row </h2>
+    <!-- main é o elemento principal da página (Baseado na semantica do google)-->
+    <main class="container-row">
+        <div class="bloco1"> 1 </div>
+        <div class="bloco2"> 2 </div>
+        <div class="bloco3"> 3 </div>
+    </main>
+
+    <h2 class="valor-da-propriedade">flex-direction: column</h2>
+    <main class="container-column">
+        <div class="bloco1"> 1 </div>
+        <div class="bloco2"> 2 </div>
+        <div class="bloco3"> 3 </div>
+    </main>
+
+    <h2 class="valor-da-propriedade">flex-direction: row-reverse</h2>
+    <main class="container-row-reverse">
+        <div class="bloco1"> 1 </div>
+        <div class="bloco2"> 2 </div>
+        <div class="bloco3"> 3 </div>
+    </main>
+
+    <h2 class="valor-da-propriedade">flex-direction: column-reverse</h2>
+    <main class="container-column-reverse">
+        <div class="bloco1"> 1 </div>
+        <div class="bloco2"> 2 </div>
+        <div class="bloco3"> 3 </div>
+    </main>
 </body>
 </html>
