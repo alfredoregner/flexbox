@@ -113,3 +113,75 @@ hr{
     padding: 16px;
     height: 500px;
 }
+
+.justify-content-center{ 
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*alinha o conteúdo no eixo principal*/
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.justify-content-flex-start{ 
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /*alinha o conteúdo no eixo principal*/
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.justify-content-flex-end{ 
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; /*alinha o conteúdo no eixo principal*/
+    
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.justify-content-space-between{ /*medidas de margem, padding e semelhantes afentam a posição*/
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /*alinha o conteúdo no eixo principal*/
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.justify-content-space-around{ /*medidas de margem, padding e semelhantes afentam a posição*/
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /*alinha o conteúdo no eixo principal*/
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
+
+.justify-content-space-evenly{ /*medidas de margem, padding e semelhantes afentam a posição*/
+    /*Comandam o flexbox*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /*alinha o conteúdo no eixo principal*/
+
+    /*Indiferente para o flexbox*/
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+}
