@@ -23,6 +23,11 @@ nav ul li{
 nav ul li a{
     color: black;
     text-decoration: none;
+    font-size: large;
+}
+
+a{
+    text-decoration: none;
 }
 
 .nome-da-propriedade{
@@ -31,6 +36,7 @@ nav ul li a{
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
     padding: 20px;
+    text-decoration: none;
 }
 
 .nome-da-propriedade-shorthand{
