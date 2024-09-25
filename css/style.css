@@ -8,6 +8,24 @@
     margin: 10px;
 }
 
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
 .nome-da-propriedade{
     font-size: 2em;
     font-weight: 500px;
